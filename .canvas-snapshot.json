@@ -4,7 +4,7 @@
     "title": "Deploying Quiz",
     "html_url": "https://learning.flatironschool.com/courses/4182/quizzes/19392",
     "mobile_url": "https://learning.flatironschool.com/courses/4182/quizzes/19392?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-4-quiz-deploying\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-4-quiz-deploying/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.<br>\nIf you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-4-quiz-deploying\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-4-quiz-deploying/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 8385,
     "show_correct_answers_last_attempt": false,
-    "version_number": 2,
+    "version_number": 3,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -102,14 +102,14 @@
           "comments_html": "<p>Right! <strong>Dynamic sites</strong> can generate different content based on what\nresources is being requested, whereas <strong>static sites</strong> don't generate custom\ncontent and instead serve up pre-built files.</p>",
           "text": "True",
           "weight": 100,
-          "id": 7068
+          "id": 332
         },
         {
           "comments": "",
           "comments_html": "<p><strong>Dynamic sites</strong> can generate different content based on what resources is\nbeing requested, whereas <strong>static sites</strong> don't generate custom content and\ninstead serve up pre-built files.</p>",
           "text": "False",
           "weight": 0,
-          "id": 6685
+          "id": 7935
         }
       ],
       "variables": null,
@@ -141,14 +141,14 @@
           "comments_html": "<p>Right! Remember, the difference between <strong>static sites</strong> vs <strong>dynamic sites</strong>\nis whether or not the content is built dynamically for every request to the\nserver. Since applications created using Create React App are ultimately just\npre-built HTML, CSS and JavaScript files, they fit the definition of a\n<strong>static site</strong> (even though they can have a very dynamic user experience).</p>",
           "text": "True",
           "weight": 100,
-          "id": 9219
+          "id": 2092
         },
         {
           "comments": "",
           "comments_html": "<p>Remember, the difference between <strong>static sites</strong> vs <strong>dynamic sites</strong>\nis whether or not the content is built dynamically for every request to the\nserver. Since applications created using Create React App are ultimately just\npre-built HTML, CSS and JavaScript files, they fit the definition of a\n<strong>static site</strong> (even though they can have a very dynamic user experience).</p>",
           "text": "False",
           "weight": 0,
-          "id": 213
+          "id": 5577
         }
       ],
       "variables": null,
@@ -176,7 +176,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/4182/pages/intro-to-deploying\">Intro to Deploying</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 8307,
+          "id": 509,
           "text": "",
           "html": "<p>Production</p>",
           "comments": "",
@@ -184,7 +184,7 @@
           "weight": 100.0
         },
         {
-          "id": 934,
+          "id": 414,
           "text": "",
           "html": "<p>Development</p>",
           "comments": "",
@@ -192,7 +192,7 @@
           "weight": 100.0
         },
         {
-          "id": 1376,
+          "id": 2826,
           "text": "",
           "html": "<p>Testing</p>",
           "comments": "",
@@ -200,7 +200,7 @@
           "weight": 100.0
         },
         {
-          "id": 634,
+          "id": 6861,
           "text": "",
           "html": "<p>Execution</p>",
           "comments": "",
@@ -208,7 +208,7 @@
           "weight": 0.0
         },
         {
-          "id": 2609,
+          "id": 645,
           "text": "",
           "html": "<p>Computation</p>",
           "comments": "",
@@ -216,7 +216,7 @@
           "weight": 0.0
         },
         {
-          "id": 7306,
+          "id": 4609,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -249,7 +249,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/4182/pages/intro-to-deploying\">Intro to Deploying</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 8404,
+          "id": 1955,
           "text": "",
           "html": "<p>Ruby version</p>",
           "comments": "",
@@ -257,7 +257,7 @@
           "weight": 100.0
         },
         {
-          "id": 2413,
+          "id": 5932,
           "text": "",
           "html": "<p>Database software</p>",
           "comments": "",
@@ -265,7 +265,7 @@
           "weight": 100.0
         },
         {
-          "id": 2776,
+          "id": 7193,
           "text": "",
           "html": "<p>Operating system</p>",
           "comments": "",
@@ -273,7 +273,7 @@
           "weight": 0.0
         },
         {
-          "id": 7715,
+          "id": 279,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -310,14 +310,14 @@
           "comments_html": "<p>Correct! Your database files themselves aren't part of your Rails application\nand are not tracked by Git. In order to set up your database on the server,\nyou need to run the commands to migrate and seed the database on Heroku.</p>",
           "text": "False",
           "weight": 100,
-          "id": 5383
+          "id": 5600
         },
         {
           "comments": "",
           "comments_html": "<p>Your database files themselves aren't part of your Rails application and are\nnot tracked by Git. In order to set up your database on the server, you need\nto run the commands to migrate and seed the database on Heroku.</p>",
           "text": "True",
           "weight": 0,
-          "id": 65
+          "id": 6689
         }
       ],
       "variables": null,
