@@ -297,25 +297,25 @@
       "position": null,
       "question_name": "Environments",
       "question_type": "true_false_question",
-      "question_text": "<p>When you push your application's code to Heroku using <code>git push heroku main</code>,\nyour database and all its included data is pushed up along with your Rails code.</p>",
+      "question_text": "<p>When you push your application's code to GitHub then deploy it using Render,\nyour database and all its included data is pushed up along with your Rails code.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/4182/pages/deploying-a-rails-api-to-heroku\">Deploying a Rails API to Heroku</a></li></ul><p></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/4182/pages/deploying-a-rails-api-to-render\">Deploying a Rails API to Render</a></li></ul><p></p>",
       "answers": [
         {
           "comments": "",
-          "comments_html": "<p>Correct! Your database files themselves aren't part of your Rails application\nand are not tracked by Git. In order to set up your database on the server,\nyou need to run the commands to migrate and seed the database on Heroku.</p>",
+          "comments_html": "<p>Correct! Your database files themselves aren't part of your Rails application\nand are not tracked by Git. In order to set up your database on the server,\nyou need to run the commands to migrate and seed the database on Render.</p>",
           "text": "False",
           "weight": 100,
           "id": 5600
         },
         {
           "comments": "",
-          "comments_html": "<p>Your database files themselves aren't part of your Rails application and are\nnot tracked by Git. In order to set up your database on the server, you need\nto run the commands to migrate and seed the database on Heroku.</p>",
+          "comments_html": "<p>Your database files themselves aren't part of your Rails application and are\nnot tracked by Git. In order to set up your database on the server, you need\nto run the commands to migrate and seed the database on Render.</p>",
           "text": "True",
           "weight": 0,
           "id": 6689
