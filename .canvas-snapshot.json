@@ -75,14 +75,15 @@
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
+    "in_paced_course": false,
     "question_types": [
 
     ]
   },
   "questions": [
     {
-      "quiz_id": 19392,
       "id": 123879,
+      "quiz_id": 19392,
       "quiz_group_id": null,
       "assessment_question_id": 134170,
       "position": null,
@@ -120,8 +121,8 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 19392,
       "id": 123880,
+      "quiz_id": 19392,
       "quiz_group_id": null,
       "assessment_question_id": 134171,
       "position": null,
@@ -159,8 +160,8 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 19392,
       "id": 123881,
+      "quiz_id": 19392,
       "quiz_group_id": null,
       "assessment_question_id": 134172,
       "position": null,
@@ -232,8 +233,8 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 19392,
       "id": 123882,
+      "quiz_id": 19392,
       "quiz_group_id": null,
       "assessment_question_id": 134173,
       "position": null,
@@ -289,8 +290,8 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 19392,
       "id": 123883,
+      "quiz_id": 19392,
       "quiz_group_id": null,
       "assessment_question_id": 134174,
       "position": null,
