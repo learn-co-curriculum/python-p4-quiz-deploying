@@ -4,7 +4,7 @@
     "title": "Deploying Quiz",
     "html_url": "https://learning.flatironschool.com/courses/4182/quizzes/19392",
     "mobile_url": "https://learning.flatironschool.com/courses/4182/quizzes/19392?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-4-quiz-deploying\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-4-quiz-deploying/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-4-quiz-deploying\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-4-quiz-deploying/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -239,8 +239,8 @@
       "assessment_question_id": 134173,
       "position": null,
       "question_name": "Environments",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>When developing a Rails application, which of the following should be <strong>the\nsame</strong> in your development and production environments?</p>",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>When developing a Rails application, which of the following should be <strong>the same</strong> in your development and production environments? Select all that apply.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -250,36 +250,36 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/4182/pages/intro-to-deploying\">Intro to Deploying</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1955,
+          "id": "8186",
           "text": "",
-          "html": "<p>Ruby version</p>",
           "comments": "",
           "comments_html": "<p>Correct! You should use the exact same version of Ruby in development and in\nproduction. Since new Ruby versions have new features, as well as fixing\nsecurity issues in older versions, it's critical to use the same version in\nboth environments.</p>",
-          "weight": 100.0
+          "weight": 100.0,
+          "html": "<p>Ruby version</p>"
         },
         {
-          "id": 5932,
+          "id": "2435",
           "text": "",
-          "html": "<p>Database software</p>",
           "comments": "",
           "comments_html": "<p>Right! It's generally a best practice to use the same database software\nlocally as you use in production, since there are a few key differences\nbetween SQL database software (like SQLite and PostgreSQL).</p>",
-          "weight": 100.0
+          "weight": 100.0,
+          "html": "<p>Database software</p>"
         },
         {
-          "id": 7193,
+          "id": "1039",
           "text": "",
-          "html": "<p>Operating system</p>",
           "comments": "",
           "comments_html": "<p>It's actually common to deploy your Rails application to a system that runs a\ndifferent OS than you may be using locally. For example, OSX developers can\nstill deploy Rails applications to platforms like Heroku that run Linux\nwithout issues in most circumstances.</p>",
-          "weight": 0.0
+          "weight": 0.0,
+          "html": "<p>Operating system</p>"
         },
         {
-          "id": 279,
+          "id": "1312",
           "text": "",
-          "html": "<p>I don't know.</p>",
           "comments": "",
           "comments_html": "",
-          "weight": 0.0
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
         }
       ],
       "variables": null,
