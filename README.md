@@ -4,7 +4,7 @@ course_id: 6130
 repo: phase-4-quiz-deploying
 ---
 
-# Deploying Quiz
+# Deployment Quiz
 
 It's time to check your knowledge! Use this quiz to create a custom study guide.
 Note any answers that were marked incorrect, so you can study the relevant
