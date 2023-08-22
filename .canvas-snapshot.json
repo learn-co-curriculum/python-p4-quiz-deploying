@@ -1,7 +1,7 @@
 {
   "quiz": {
     "id": 50274,
-    "title": "Deploying Quiz",
+    "title": "Deployment Quiz",
     "html_url": "https://learning.flatironschool.com/courses/6130/quizzes/50274",
     "mobile_url": "https://learning.flatironschool.com/courses/6130/quizzes/50274?force_user=1&persist_headless=1",
     "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-4-quiz-deploying\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-4-quiz-deploying/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
@@ -13,8 +13,8 @@
     "scoring_policy": "keep_highest",
     "allowed_attempts": 3,
     "one_question_at_a_time": true,
-    "question_count": 2,
-    "points_possible": 1.0,
+    "question_count": 5,
+    "points_possible": 5.0,
     "cant_go_back": false,
     "access_code": null,
     "ip_filter": null,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 17182,
     "show_correct_answers_last_attempt": true,
-    "version_number": 2,
+    "version_number": 3,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -99,15 +99,15 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6130/pages/intro-to-deployment\">Intro to Deployment</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5679,
+          "id": "5679",
           "text": "",
           "comments": "",
-          "comments_html": "<p>Bingo! When your application is deployed to a server, it will be running in a\n<strong>production</strong> environment. Some features you have available in the\ndevelopment environment, like debugging tools and hot-reloading when code\nchanges, aren't available in this environment. Instead, the focuses of a\nproduction environment are to run your application quickly; be resilient to\nerrors (and to keep a log of what goes wrong); to handle lots of traffic; and\ngenerally to make your application as great as it can be for your users.</p>",
+          "comments_html": "<p>Bingo! When your application is deployed to a server, it will be running in a\n<strong>production</strong> environment. Some features you have available in the\ndevelopment environment, like debugging tools and hot-reloading when the code\nis changed, aren't available in this environment. Instead, the focuses of a\nproduction environment are to run your application quickly; be resilient to\nerrors (and to keep a log of what goes wrong); to handle lots of traffic; and\ngenerally to make your application as great as it can be for your users.</p>",
           "weight": 100.0,
           "html": "<p>Production</p>"
         },
         {
-          "id": 5583,
+          "id": "5583",
           "text": "",
           "comments": "",
           "comments_html": "<p>Right! When you're working on your application locally, running the code on\nyour personal computer, it's running in the <strong>development</strong> environment. In a\ndevelopment environment, you should be able to easily use debugging tools and\ncode analysis tools (like ESLint, which warns you when you're using React\nincorrectly). You should be able to quickly see the result of adding new code\nand how that affects your application.</p>",
@@ -115,7 +115,7 @@
           "html": "<p>Development</p>"
         },
         {
-          "id": 3733,
+          "id": "3733",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! When your test runner (like Jest or Pytest) is running, it runs in a\n<strong>testing</strong> environment. In this environment, your code should run as quickly\nas possible so that you can get rapid feedback on your application by running\nyour test suite. It should also be as close as possible to your production\nenvironment (though this comes with tradeoffs related to how quickly your\ntests can run).</p>",
@@ -123,7 +123,7 @@
           "html": "<p>Testing</p>"
         },
         {
-          "id": 8219,
+          "id": "8219",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -131,7 +131,7 @@
           "html": "<p>Execution</p>"
         },
         {
-          "id": 6020,
+          "id": "6020",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -139,7 +139,7 @@
           "html": "<p>Computation</p>"
         },
         {
-          "id": 2748,
+          "id": "2748",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -172,7 +172,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6130/pages/intro-to-deployment\">Intro to Deployment</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1089,
+          "id": "1089",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! You should use the exact same version of Python in development and in\nproduction. Since new Python versions have new features, as well as fixing\nsecurity issues in older versions, it's critical to use the same version in\nboth environments.</p>",
@@ -180,7 +180,7 @@
           "html": "<p>Python version</p>"
         },
         {
-          "id": 6260,
+          "id": "6260",
           "text": "",
           "comments": "",
           "comments_html": "<p>Right! It's generally a best practice to use the same database software\nlocally as you use in production, since there are a few key differences\nbetween SQL database software (like SQLite and PostgreSQL).</p>",
@@ -188,7 +188,7 @@
           "html": "<p>Database software</p>"
         },
         {
-          "id": 8998,
+          "id": "8998",
           "text": "",
           "comments": "",
           "comments_html": "<p>It's actually common to deploy your Flask application to a system that runs a\ndifferent OS than you may be using locally. For example, OSX developers can\nstill deploy Flask applications to platforms like Heroku that run Linux\nwithout issues in most circumstances.</p>",
@@ -196,7 +196,7 @@
           "html": "<p>Operating system</p>"
         },
         {
-          "id": 2553,
+          "id": "2553",
           "text": "",
           "comments": "",
           "comments_html": "",
